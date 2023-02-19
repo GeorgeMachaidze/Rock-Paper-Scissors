@@ -1,0 +1,35 @@
+body{
+  background-color: #191A19;
+}
+.main-container{
+  background-color: #1E5128;
+  border-radius: 50px;
+  margin: 5% 10%;
+  display: block;
+  border: 10px solid black;
+}
+.row{
+  text-align: center;
+}
+.btn {
+  margin: 10%;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+h1{
+  text-align: center;
+  margin-top: 3%;
+  color: #1E5128;
+  font-size: 3rem;
+  font-family: 'Gajraj One', cursive;
+}
+.stone{
+  background: url(images/stone.png);
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
